@@ -350,7 +350,7 @@ ol {
   }
 }
 /* Adjustments for smaller screens */
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   #players{
     display: block;
   }
