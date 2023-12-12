@@ -349,3 +349,33 @@ ol {
     transform: scale(1);
   }
 }
+/* Adjustments for smaller screens */
+@media (max-width: 500px) {
+  #players{
+    display: block;
+  }
+  #players li {
+    width: 175px;
+  
+}
+  #game-board button {
+    width: 5rem; /* Adjust button size */
+    height: 5rem;
+    font-size: 2rem; /* Adjust font size */
+  }
+  #game-board ol {
+    gap: 1rem;
+}
+}
+@media (max-width: 350px) {
+  
+  #game-board button {
+    width: 4rem; /* Adjust button size */
+    height: 4rem;
+    font-size: 2rem; /* Adjust font size */
+  }
+  #players li {
+    width: 175px;
+  
+}
+}
